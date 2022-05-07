@@ -1,0 +1,52 @@
+.price-card{
+    height: 750px;
+    box-shadow: 2px 2px 2px  2px black;
+    background-image: linear-gradient(to right, #F1F1EF 0%, #C19434  51%, #F1F1EF 100%);
+    
+}
+.price-card:hover{
+    background-color: #C19434!important;
+    transform: skewY(5deg);
+}
+.package  {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.package .col-md-4 {
+    padding: 2rem;
+}
+.pay-now
+   
+         {background-image: linear-gradient(to right, #34421E 10%, #F1F1EF  80%, #34431E  100%)}
+    .pay-now {
+       margin: 10px;
+       padding: 15px 45px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;
+       color: #C19434;            
+       box-shadow: 0 0 20px #eee;
+       border-radius: 10px;
+       display: block;
+     }
+
+     .pay-now:hover {
+       background-position: right center; /* change the direction of the change here */
+       color: #C19434;
+       text-decoration: none;
+     }
+    
+
+    
+.pay-now:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 2px #C19434;
+}
+.pay-now:hover {
+    background-color:#C19434;
+    transition: 0.7s;
+}

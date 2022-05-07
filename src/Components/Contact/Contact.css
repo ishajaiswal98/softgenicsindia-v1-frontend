@@ -1,0 +1,18 @@
+.contact-image{
+  height: 80%;
+  margin-bottom: 3rem;
+
+}
+.form-div{
+   background-color: #F1F1EF;
+   
+}
+.btn-submit{
+  background-color: #C19434 !important;
+  border-radius: 4rem;
+  border: none;
+  float: left;
+}
+.form-cont{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

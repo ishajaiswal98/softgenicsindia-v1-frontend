@@ -1,0 +1,19 @@
+.about{
+    color: #C19434;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    text-shadow: 3px 3px 3px #34421E;
+}
+/* .overlay {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+  background-color: rgb(216, 89, 248);
+  opacity: 0.7;
+  border-bottom-right-radius: 100% 20%;
+  border-bottom-left-radius: 100% 20%;
+
+} */

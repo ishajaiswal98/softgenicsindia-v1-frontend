@@ -1,0 +1,25 @@
+.myReact-icons{
+    justify-content: center;
+    border-radius: 100%;
+    border-color: black;
+    border-width: 10px;
+    box-shadow: 1px 1px 1px green;
+    
+    
+}
+.design-process{
+    margin-left: 11rem;
+    max-width: 100%;
+    overflow-x: hidden;
+   
+}
+.arrow{
+    
+    margin-right: 1rem;
+}
+@media only screen and (min-width: 600px){
+    .design-process{margin-left: 0;
+
+    }
+}
+

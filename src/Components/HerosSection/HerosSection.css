@@ -1,0 +1,122 @@
+.hero-container {
+    background: url('/public/images/h2.avif') center center/cover no-repeat; 
+    height: 100vh !important;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    animation: changeBackgroundImage 13s infinite;
+    /* margin-top: 13rem; */
+    overflow: hidden;
+  }
+  @keyframes changeBackgroundImage {
+    15% {
+      background: url('/public/images/h2.avif') center center/cover ;
+    }
+    35% {
+      background: url('/public/images/h3.avif') center center/cover ;
+    }
+    75% {
+      background: url('/public/images/h4.avif') center center/cover ;
+    }
+    100% {
+      background:url('/public/images/h1.webp') center center/cover;
+    }
+  }
+  .hero-container > span {
+    color: #fff;
+    font-size: 100px;
+    margin-top: 30px !important;
+    margin-left: 50px;
+    font-weight: 700;
+  }
+  
+  .hero-container > p {
+    margin-top: 8px !important;
+    color:  gold!important; 
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+      margin-left: 50px;
+      text-shadow: 5px -1px 2px rgba(0,0,0,0.9);
+  }
+  .hero-btns {
+    margin-top: 32px;
+    margin-left: 3rem;
+    color: goldenrod;
+  }
+  
+  .hero-btns .btn {
+    margin: 6px;
+  }
+  
+  .fa-play-circle {
+    margin-left: 4px;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .hero-container  {
+      font-size: 70px;
+      align-items: center;
+      margin-top: 0rem;
+    
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero-container > h1 {
+      font-size: 50px;
+      margin-top: -100px;
+      
+    } 
+    .hero-container {
+      margin-top: 0;
+    }
+  
+    .hero-container > p {
+      font-size: 25px;
+      text-align: center;
+      margin-top: 30px;
+    }
+    .hero-container > span {
+      font-size: 30px;
+      text-align: center;
+      font-weight: 700;
+    }
+  
+    .btn-mobile {
+      display: block;
+      text-decoration: none;
+    }
+  
+    .hero-btns {
+      width: 50%;
+      margin-left: 0rem;
+    }
+  }
+  .hero-container .btn-booking a {
+    background-color: goldenrod !important;
+    border-width: 0px!important; 
+    border-radius: 2rem !important;
+    margin-left: 1rem !important;
+    padding: 10px 30px !important;
+    text-decoration: none;
+    color: black;
+    box-shadow: 5px 5px 0px 0px black;
+    
+  }
+  .bookonline-btnss:hover {
+      transform: scale(0.9);
+      transition: all .3s ease 0s;
+  }
+  .bookonline-btnss > a {
+    color: #ffffff!important; 
+    text-decoration: none;
+    font-family: 'Poppins',Helvetica,Arial,Lucida,sans-serif!important; 
+  }
+  .btnss-wrapper{
+    width: 60rem;
+  }

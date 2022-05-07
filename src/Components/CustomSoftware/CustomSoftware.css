@@ -1,0 +1,20 @@
+.imgage{
+    height: 5rem;
+    width: 7rem;
+    outline-width: 2rem;
+    box-shadow:5px 5px 5px #34421E;
+    transition-property: all 2s;
+    border-radius: 50%;
+    border-color: black;
+    
+    
+
+}
+.tech-row{
+    padding: 1rem;
+}
+.imgage:hover{
+    transform: rotateY(50deg);
+    zoom: 1;
+    box-shadow: 8px 8px 8px rgb(6, 199, 54);
+}
